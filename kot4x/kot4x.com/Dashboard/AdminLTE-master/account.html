@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paramount Treasury Investment | My Accounts</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+
+  <!-- Preloader -->
+  <div class="preloader flex-column justify-content-center align-items-center">
+    <img class="animation__shake" src="../../wp-content/uploads/2018/11/logo.dcae1b32.svg" alt="AdminLTELogo" height="70" width="100">
+  </div>
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light fixed-top">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+
+      <li class="nav-item">
+        <div class="wallet-dash">
+        <i class="fas fa-wallet"></i> <b>$ 0.00</b>
+      </div>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Navbar Search -->
+
+      <!-- Notifications Dropdown Menu -->
+
+      <li class="nav-item dropdown">
+        <a class="top-left-link btn btn-download" data-toggle="dropdown" href="#">
+          Downloads
+        </a>
+        <div class="dropdown-menu dropdown-content">
+          <a href="https://itunes.apple.com/us/app/metatrader-4/id496212596?mt=8" class="dropdown-item">
+            MT4 iOS
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4&hl=en" class="dropdown-item">
+             MT4 Android
+          </a>
+          <a href="https://trade.mql5.com/trade?servers=KOT-Demo%2cKOT-Live2%2cKOT-Live3&trade_server=KOT-Live2%2cKOT-Live3&demo_server=KOT-Demo&startup_mode=login&lang=en" class="dropdown-item">
+             MT4 Web Terminal
+          </a>
+          <a href="https://download.mql5.com/cdn/web/18251/mt4/kot4xsetup.exe" class="dropdown-item">
+            MT4 Windows
+         </a>
+         <a href="https://download.mql5.com/cdn/web/metaquotes.software.corp/mt4/MetaTrader4.dmg" class="dropdown-item">
+          MT4 Mac
+       </a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a href="deposit.html" class="top-left-link btn btn-deposit">Deposit Funds</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link top-left-link" data-toggle="dropdown" href="#">
+          <i class="far fa-bell fa-2x"></i>
+          <span class="badge badge-warning navbar-badge">15</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <span class="dropdown-item dropdown-header">15 Notifications</span>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-envelope mr-2"></i> 4 new messages
+            <span class="float-right text-muted text-sm">3 mins</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-users mr-2"></i> 8 friend requests
+            <span class="float-right text-muted text-sm">12 hours</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-file mr-2"></i> 3 new reports
+            <span class="float-right text-muted text-sm">2 days</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <div class="logout-area">
+        <p style="line-height: 0.5;">Hey , Fred</p>
+        <a href="#" class="nav-link logout p-0"><span><i class="fa fa-power-off"></i> Logout</span></a>
+      </div>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+          <i class="fas fa-expand-arrows-alt"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-widget="control-sidebar" data-controlsidebar-slide="true" href="#" role="button">
+          <i class="fas fa-th-large"></i>
+        </a>
+      </li> -->
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dash sidebar-light elevation-4">
+    <!-- Brand Logo -->
+    <a href="index3.html" class="brand-link text-center">
+      <img src="../../wp-content/uploads/2018/11/logo.dcae1b32.svg" alt="AdminLTE Logo" class="" width="100px" style="opacity: .8">
+      
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">
+                  <i class="fas fa-th-large nav-icon"></i>
+                  <p>Dashboard</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="account.html" class="nav-link active">
+                  <i class="fa fa-user-alt nav-icon"></i>
+                  <p>My Accounts</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="deposit.html" class="nav-link">
+                  <i class="fas fa-arrow-circle-up nav-icon"></i>
+                  <p>Deposit Funds</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="internal-transfer.html" class="nav-link">
+                  <i class="fas fa-exchange-alt nav-icon"></i>
+                  <p>Internal Transfer</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="withdraw.html" class="nav-link">
+                  <i class="fas fa-arrow-circle-down nav-icon"></i>
+                  <p>Withdraw</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="documents.html" class="nav-link">
+                  <i class="far fa-file nav-icon"></i>
+                  <p>Documents</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="messages.html" class="nav-link">
+                  <i class="far fa-comment-alt nav-icon"></i>
+                  <p>Notifications</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="settings.html" class="nav-link">
+                  <i class="fas fa-cog nav-icon"></i>
+                  <p>Settings</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-power-off nav-icon"></i>
+                  <p>Logout</p>
+                </a>
+              </li>
+
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <br><br>
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper dash-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+
+        <div class="home-alert">
+            <p>Complete your KYC document upload to use full system features <a href="documents.html" type="button" class="btn btn-kot">Upload docs</a></p>
+          </div>
+          <div class="row mb-2">
+            <div class="col-sm-6">
+              <h1 class="m-0">My Accounts</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+              <ol class="breadcrumb float-sm-right">
+                <li class="breadcrumb-item"><a href="#" class="bread-item">Home</a></li>
+                <li class="breadcrumb-item active">My Accounts</li>
+              </ol>
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+
+<!-- Main content -->
+<section class="content">
+  <div class="container-fluid">
+  
+    <br>
+
+    <form action="" method="post">
+        <div class="row">
+        <div class="col-md-3">
+          <label for="account_type" class="form-label">Account Type</label>
+                <div class="form-group">
+                    <select name="account_type" id="account_type" class="form-control" onchange="yesnoCheck(this);" required>
+                        <option value="" selected disabled>Select ---</option>
+                        <option value="live">ECN ACCOUNT</option>
+                        <option value="demo">DEMO ACCOUNT</option>
+                    </select>
+                </div>
+                
+      </div>
+        <div class="col-md-6" id="live_live" style="display:none;">
+            <div class="col-xs-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="select_currency" class="form-label">Select Currency</label>
+                            <select name="select_currency" id="select_currency" class="form-control">
+                                <option value="" selected disabled>Select ---</option>
+                                <option value="btc">BTC</option>
+                                <option value="usd">USD</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="account_leverage" class="form-label">Account Leverage</label>
+                            <select name="account_leverage" id="account_leverage" class="form-control">
+                                <option value="" selected disabled>Select ---</option>
+                                <option value="50">50</option>
+                                <option value="100">100</option>
+                                <option value="200">200</option>
+                                <option value="300">300</option>
+                                <option value="400">400</option>
+                                <option value="500">500</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6" id="demo_demo" style="display:none;">
+            <div class="col-xs-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="account_leverage" class="form-label">Account Leverage</label>
+                            <select name="account_leverage" id="account_leverage" class="form-control">
+                                <option value="" selected disabled>Select ---</option>
+                                <option value="50">50</option>
+                                <option value="100">100</option>
+                                <option value="200">200</option>
+                                <option value="300">300</option>
+                                <option value="400">400</option>
+                                <option value="500">500</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="balance" class="form-label">Balance</label>
+                            <select name="balance" id="balance" class="form-control">
+                                <option value="" selected disabled>Select ---</option>
+                                <option value="100">100</option>
+                                <option value="500">500</option>
+                                <option value="1000">1000</option>
+                                <option value="2000">2000</option>
+                                <option value="3000">3000</option>
+                                <option value="4000">4000</option>
+                                <option value="5000">5000</option>
+                                <option value="10000">10000</option>
+                                <option value="20000">20000</option>
+                                <option value="30000">30000</option>
+                                <option value="40000">40000</option>
+                                <option value="50000">50000</option>
+                                <option value="60000">60000</option>
+                                <option value="70000">70000</option>
+                                <option value="80000">80000</option>
+                                <option value="90000">90000</option>
+                                <option value="100000">100000</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="col-md-3 d-grid">
+                <label for="" class="form-label text-white">Button</label>
+                <div class="form-group">
+               <button type="submit" class="btn btn-create-account">Create Account</button>
+              </div>
+            </div>
+          </div>
+    </form>
+
+    <br>
+    <p class="account-text"><i class="far fa-clock"></i> Account balances may take up to 5 minutes to update.</p>
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead class="bg-dash-table">
+                <tr>
+                    <th>Account Type</th>
+                    <th>Account Number</th>
+                    <th>Server</th>
+                    <th>Leverage</th>
+                    <th>Currency</th>
+                    <th>Balance</th>
+                    <th>Equity</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>------</td>
+                    <td>------</td>
+                    <td>------</td>
+                    <td>------</td>
+                    <td>------</td>
+                    <td>------</td>
+                    <td>------</td>
+                    <td>------</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  </div><!-- /.container-fluid -->
+</section>
+<!-- /.content -->
+
+<script>
+    function yesnoCheck(that) 
+{
+if (that.value == "live") 
+{
+document.getElementById("live_live").style.display = "block";
+}
+else
+{
+document.getElementById("live_live").style.display = "none";
+}
+if (that.value == "demo")
+{
+document.getElementById("demo_demo").style.display = "block";
+}
+else
+{
+document.getElementById("demo_demo").style.display = "none";
+}
+}
+</script>
+
+</div>
+<!-- /.content-wrapper -->
+<footer class="main-footer">
+<strong>Copyright &copy; <span id="copyright">
+  <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+</span> <a href="#" class="bread-item">Paramount treasury investment</a>.</strong>
+All rights reserved.
+<div class="float-right d-none d-sm-inline-block">
+  
+</div>
+</footer>
+
+<!-- Control Sidebar -->
+<aside class="control-sidebar control-sidebar-dark">
+<!-- Control sidebar content goes here -->
+</aside>
+<!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+$.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="plugins/moment/moment.min.js"></script>
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="dist/js/pages/dashboard.js"></script>
+</body>
+</html>

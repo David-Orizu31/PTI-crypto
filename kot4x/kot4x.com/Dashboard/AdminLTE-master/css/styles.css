@@ -1,0 +1,277 @@
+.nav-link.active {
+    background-color: rgb(151, 26, 151) !important;
+}
+
+.nav-link:hover {
+    color: rgb(151, 26, 151) !important;
+}
+
+.nav-link.active:hover {
+    color: white !important;
+}
+
+.bread-item {
+    color: rgb(151, 26, 151) !important;
+}
+
+.top-left-link {
+    margin: 2px 20px 2px 20px;
+}
+
+.home-alert {
+    width: 100%;
+    background-color: rgb(151, 26, 151);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 8px 20px 0.1px 20px;
+    border-radius: 4px;
+}
+
+.btn-kot {
+    background-color: rgb(255, 182, 64);
+    color: rgb(151, 26, 151);
+    border-radius: 0px;
+    margin-left: 10px;
+}
+
+.btn-deposit {
+    background-color: rgb(255, 182, 64);
+    color: rgb(151, 26, 151) !important;
+    border-radius: 0px;
+    margin-left: 10px;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px !important;
+    font-size: 16px;
+}
+
+.btn-download {
+    background-color: white;
+    color: rgb(151, 26, 151) !important;
+    border-radius: 0px;
+    border: 2px solid rgb(151, 26, 151);
+    margin-left: 10px;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px !important;
+    font-size: 16px;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown-content a {
+    color: grey;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+.wallet-dash {
+    color: rgb(151, 26, 151);
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.logout-area {
+    padding: 0px 20px 0px 0px !important;
+}
+
+.logout-area .nav-link {
+    height: 1.5em !important;
+}
+
+.dash-wrapper {
+    background-color: white !important;
+}
+
+.dash-details {
+    color: rgb(151, 26, 151);
+    background-color: whitesmoke;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.dash-details span {
+    font-size: 20px;
+}
+
+.dash-details p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.dash-details:hover {
+    color: white;
+    background-color: rgb(151, 26, 151);
+}
+
+.sidebar-dash {
+    background-color: white !important;
+}
+
+
+@media (max-width:800px) {
+    .dash-details.two {
+        margin-top: 20px !important;
+    }
+
+    .dash-details.two {
+        margin-top: 20px !important;
+    }
+
+    .btn-deposit {
+        display: none;
+    }
+}
+
+.bg-dash-table {
+    color: white;
+    background-color: rgb(151, 26, 151);
+}
+
+.dash-bottom {
+    color: gray;
+    font-size: 13px;
+}
+
+.btn-create-account {
+    color: rgb(151, 26, 151);
+    background-color: rgb(255, 182, 64);
+    font-weight: bold;
+    width: 100%;
+}
+
+.account-text {
+    color: gray;
+    font-size: 17px;
+}
+
+.account-text i {
+    margin-right: 5px;
+}
+
+@media (max-width:480px) {
+    .btn-download {
+        display: none;
+    }
+}
+
+.steps {
+    background-color: rgb(255, 182, 64);
+    color: white;
+    padding: 20px;
+}
+
+.steps p {
+    font-weight: 600;
+}
+
+.steps a {
+    color: white !important;
+}
+
+.steps a:hover {
+    color: black !important;
+}
+
+.logo-background {
+   background-color: rgb(151, 26, 151);
+   height: 200px;
+   margin-bottom: 30px;
+   position: relative;
+}
+.logo-background img {
+    padding-top: 40px;
+}
+
+
+.logo-background p {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+
+
+.image {
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+
+.middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.logo-background:hover {
+background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.closed-coins:hover {
+background-color: rgb(151, 26, 151) !important;
+}
+
+.logo-background:hover .middle {
+opacity: 1;
+}
+
+.btn-closed {
+color: white !important;
+background-color: rgb(231, 24, 24) !important;
+border-radius: 0px !important;
+height: 30px !important;
+font-size: 14px !important;
+float: left !important;
+width: 80px !important;
+}
+
+.btn-request {
+color: white !important;
+border-radius: 0px !important;
+background-color: #ffab32 !important;
+font-size: 17px !important;
+}
+
+@media (max-width: 750px) {
+.btn-request {
+   margin-top: -10px !important;
+}
+.btn-closed {
+   margin-top: -0px !important;
+}
+}
+
+.alternative ul {
+list-style-type: square !important;
+}
+
+.alternative ul li {
+margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+    .steps.two {
+        margin-top: 20px;
+    }
+}
+
+.tab-item {
+    margin-left: 20px;
+}
+
+@media (max-width:480px) {
+    .tab-item {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+}
